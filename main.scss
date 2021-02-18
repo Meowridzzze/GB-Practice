@@ -1,0 +1,420 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+//Header
+
+header {
+    padding: 20px 0;
+    color: #fff;
+    background-color: #445161;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__title {
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.check__img {
+    margin-right: 5px;
+}
+
+.header__item {
+    font-size: 20px;
+}
+
+.header__item:not(:last-of-type) {
+    padding-bottom: 10px;
+}
+
+.header__img {
+    width: 470px;
+    height: 217px;
+    background-color: #fff;
+}
+
+// About
+
+.about {
+    padding: 45px 0;
+}
+
+.about__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__text {
+    width: 650px;
+}
+
+.about__title {
+    font-size: 30px;
+    color: #445161;
+    padding-bottom: 17px;
+}
+
+.about__info {
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.about__img {
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+}
+
+// Pluses
+
+.pluses {
+    background-color: #f5f5f5;
+    padding: 25px 0;
+}
+
+.pluses__title {
+    color: #445161;
+    font-size: 30px;
+    text-align: center;
+}
+
+.pluses__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+}
+
+.box__left, .box__right {
+    width: 568px;
+}
+
+.plus__item {
+    font-size: 16px;
+    color: #333;
+    display: flex;
+}
+
+.plus__img{
+    position: absolute;
+}
+
+.plus__item:not(last-of-type) {
+    padding-bottom: 33px;
+}
+
+.pluses__text {
+    position: relative;
+    padding-left: 40px;
+}
+
+// Screenshot
+
+.screenshots {
+    padding: 25px 0;
+}
+
+.screen__info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+
+
+.screenshots__title {
+    font-size: 30px;
+    color: #445161;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.screen__item {
+    display: flex;
+}
+
+.screen__item:last-of-type {
+    padding-top: 27px;
+}
+
+.screen__img {
+    width: 202px;
+    height: 153px;
+    background-color: #445161;
+}
+
+.screenshots__text {
+    padding-left: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #445161;
+}
+
+.screen__text {
+    font-size: 16px;
+    color: #333;
+    padding-right: 30px;
+    padding-top: 2px;
+    line-height: 24px;
+}
+
+// Reviews
+
+.reviews {
+    background-color: #f5f5f5;
+}
+
+.reviews__title {
+    font-size: 30px;
+    color: #445161;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.reviews__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.review__box {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left__review, .right__review {
+    width: 576px;
+    height: 268px;
+}
+
+
+.review__item {
+    display: flex;
+    padding-bottom: 22px;
+}
+
+.review__text__box {
+    display: block;
+    width: 483px;
+    height: 85px;
+    background: #EBEBEB;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-left: 16px;
+    padding-top: 16px;
+}
+
+.review__text__main {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+
+.review__text {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #989898;
+}
+
+.user__pic {
+    padding-bottom: 35px;
+}
+
+// Buy
+
+.buy__title {
+    font-size: 30px;
+    color: #445161;
+    padding-top: 45px;
+    text-align: center;
+}
+
+.buy__wrapper {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 50px;
+}
+
+.standart {
+    width: 300px;
+    height: 306px;
+    background: #445161;
+    border-radius: 5px;
+ 
+}
+
+.premium {
+    width: 300px;
+    height: 404px;
+    background: #445161;
+    border-radius: 5px;
+}
+
+.lux {
+    width: 300px;
+    height: 499px;
+    background: #445161;
+    border-radius: 5px;
+}
+
+.heading__card {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 13px;
+}
+
+.price {
+    background: #FFFFFF;
+    border: 2px solid #445162;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 16px;
+    font-size: 40px;
+    line-height: 30px;
+    color: #445162;
+}
+
+.specs__item {
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 20px;
+    color: #FFFFFF;
+}
+
+ul.specs {
+    padding-top: 8px;
+}
+
+.buy__btn {
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #445161;
+    border-radius: 5px;
+    border-color: #fff;
+    width: 260px;
+    height: 40px;
+    margin: 20px;
+}
+
+// Contacts
+
+.contacts {
+    background-color: #445162;
+}
+
+.contacts__heading {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.contacts__wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 45px;
+}
+
+.name, .email {
+    width: 500px;
+    height: 31px;
+    border-radius: 5px;
+    border-color: #fff;
+    margin-bottom: 18px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-bottom: 7px;
+}
+
+.message {
+    width: 491px;
+    height: 161px;
+    border-radius: 5px;
+    border-color: #fff;
+    margin-bottom: 18px;
+    padding: 12px;
+}
+
+.send__btn {
+    text-transform: uppercase;
+    width: 143px;
+    height: 43px;
+    background-color: #fff;
+    border-radius: 5px;
+    border-color: #fff;
+    margin: 0 180px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #445162;
+}
+
+.contact__us {
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.contact__us img {
+    padding-right: 5px;
+}
+
+.contact__us p {
+    padding-bottom: 16px;
+}
+
+.links {
+    padding-top: 50px;
+}
+
+/* Footer */
+
+footer {
+    height: 49px;
+}
+
+.footer__text {
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #445162;
+    padding-top: 13px;
+}
