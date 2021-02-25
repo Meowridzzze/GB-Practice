@@ -96,10 +96,6 @@ header {
     padding-top: 22px;
 }
 
-// .box__left, .box__right {
-//     width: 568px;
-// }
-
 .plus__item {
     font-size: 16px;
     color: #333;
@@ -431,4 +427,12 @@ footer {
     letter-spacing: 0.3px;
     color: #445162;
     padding-top: 13px;
+}
+
+i {
+    color: #fff;
+}
+
+i:not(last-of-type) {
+    margin-right: 10px;
 }

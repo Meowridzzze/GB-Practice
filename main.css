@@ -465,4 +465,12 @@ footer {
   color: #445162;
   padding-top: 13px;
 }
+
+i {
+  color: #fff;
+}
+
+i:not(last-of-type) {
+  margin-right: 10px;
+}
 /*# sourceMappingURL=main.css.map */
