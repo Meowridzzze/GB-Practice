@@ -15,6 +15,7 @@ img {
 
 button {
     border: none;
+    outline: none;
 }
 
 .slider {
@@ -784,6 +785,16 @@ footer {
     background-color: #191919;
 }
 
+.waxom__footer {
+    display: flex;
+}
+
+.waxom__widgets {
+    display: flex;
+    margin-top: 110px;
+    margin-left: 55px;
+}
+
 .waxom__info {
     width: 270px;
     padding-top: 75px;
@@ -853,7 +864,8 @@ footer {
     margin-bottom: 25px;
 }
 
-.date {
+.twit__date,
+.post__date {
     font-family: $ffm;
     font-weight: 300;
     font-size: 12px;
@@ -861,10 +873,94 @@ footer {
     color: #363636;
 }
 
-.text {
+.twit__text,
+.post__text {
     font-family: $ffm;
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
     color: #555555;
+    width: 270px;
+}
+
+.post,
+.twit {
+    margin: 0 0 20px 0;
+    text-decoration: none;
+    border-bottom: 2px solid #252525;
+    padding: 0 0 20px 0;
+    width: 270px;
+}
+
+.recent__posts,
+.twitter {
+    margin-right: 55px;
+}
+
+.post__date {
+    margin-bottom: 5px;
+}
+
+.post:hover .post__date {
+    color: #fff;
+    transition: 200ms;
+}
+
+.post:hover .post__text {
+    color: #C7B299;
+    transition: 200ms;
+}
+
+.link {
+    color: #00BFF3;
+}
+
+.widget__img {
+    width: 130px;
+    height: 98px;
+}
+
+.widgets__img-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 9px;
+    column-gap: 8px;
+}
+
+.widget__img:hover {
+    transition: 300ms;
+    transform: scale(1.2);
+}
+
+//Footer__copyright 
+
+.copyright {
+    background-color: #101010;
+    width: 100%;
+    margin-top: 130px;
+}
+
+.copyright__wrapper {
+    display: flex;
+    padding: 60px 0 40px 15px;
+}
+
+.copyright__text,
+.copyright__links {
+    font-family: $ffm;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #555555;
+}
+
+.copyright__links {
+    text-decoration: none;
+    margin-left: 25px;
+    border-left: 1px solid #252525;
+    padding: 0 0 0 12px;
+}
+
+.copyright__links:hover {
+    color: #BAA78F;
 }
