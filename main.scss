@@ -5,7 +5,7 @@ $ffr: 'Raleway', sans-serif;
 $ffm: 'Montserrat', sans-serif;
 
 .container {
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -55,6 +55,7 @@ button {
     transition: 200ms;
     opacity: 1;
 }
+
 // Header
 
 header {
@@ -433,6 +434,29 @@ ul {
     transition: 200ms;
 }
 
+.card__body {
+    text-align: left;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+
+.card__body::before  {
+    content: "";
+    transition: 200ms;
+    position: absolute;
+    background-color: transparent;
+    top: -6px;
+    left: 20px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 10px solid #fbfaf8;
+}
+
+.project__item:hover .card__body::before {
+    border-bottom: 10px solid #362f2d;
+    transition: 200ms;
+}
 
 .project__item:hover {
     background-color: #352F2D;
