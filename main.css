@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
 .container {
-  width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -433,6 +433,33 @@ ul {
   margin-bottom: 70px;
   background-color: #FBFAF8;
   position: relative;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+.card__body {
+  text-align: left;
+  position: relative;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card__body::before {
+  content: "";
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  position: absolute;
+  background-color: transparent;
+  top: -6px;
+  left: 20px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 10px solid #fbfaf8;
+}
+
+.project__item:hover .card__body::before {
+  border-bottom: 10px solid #362f2d;
   -webkit-transition: 200ms;
   transition: 200ms;
 }

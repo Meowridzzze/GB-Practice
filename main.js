@@ -1,7 +1,7 @@
 $(function() {
 
     $('.header__info').slick({
-        dots: true,
+        dots: false,
     });
 
     $('.posts__cards').slick({
