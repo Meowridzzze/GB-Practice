@@ -58,6 +58,7 @@ header {
   height: 100vh;
   background-image: url(img/bg_header.png);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: center 0;
 }
 
@@ -665,7 +666,7 @@ ul {
 }
 
 .counter__item:not(last-of-type) {
-  padding-right: 70px;
+  margin-right: 70px;
 }
 
 .posts__heading {
@@ -698,7 +699,7 @@ ul {
 .post__card {
   border: 1px #B2B2B2 solid;
   width: 370px;
-  margin-bottom: 115px;
+  margin-bottom: 55px;
   margin-top: 30px;
   position: relative;
 }
@@ -750,7 +751,7 @@ ul {
   transition: 200ms;
 }
 
-.post__card:not(last-of-type) {
+.post__card:not(:last-of-type) {
   margin-right: 85px;
 }
 
@@ -837,7 +838,7 @@ ul {
 
 .posts__cards.slick-slider {
   position: relative;
-  left: 3%;
+  left: 3.5%;
 }
 
 .partners {
@@ -1054,5 +1055,25 @@ footer {
 
 .copyright__links:hover {
   color: #BAA78F;
+}
+
+.slider__arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 40px;
+}
+
+.slider__arrow-left,
+.slider__arrow-right {
+  width: 20px;
+  height: 20px;
+}
+
+.slider__arrow-left {
+  margin-right: 20px;
 }
 /*# sourceMappingURL=main.css.map */
